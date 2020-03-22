@@ -56,3 +56,7 @@ docker push NOME_USUARIO/NOME_IMAGEM - envia a imagem criada para o Docker Hub.
 
 
 docker pull NOME_USUARIO/NOME_IMAGEM - baixa a imagem desejada do Docker Hub.
+
+
+
+ocker run --network minha-rede -d -p 8080:3000 douglasq/alura-books:cap05
