@@ -42,6 +42,12 @@ docker build -f Dockerfile - cria uma imagem a partir de um Dockerfile.
 
 docker build -f CAMINHO_DOCKERFILE/Dockerfile -t NOME_USUARIO/NOME_IMAGEM - constrói e nomeia uma imagem não-oficial informando o caminho para o Dockerfile.
 
+### NetWork
+
+docker network create --driver bridge minha-rede
+
+docker run -it --name meu-container-de-ubuntu --network minha-rede ubuntu
+
 
 docker login - inicia o processo de login no Docker Hub.
 
